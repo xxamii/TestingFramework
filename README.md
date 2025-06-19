@@ -8,17 +8,17 @@ It was originally developed in my [DotnetBootcampYakovliev](https://github.com/x
 
 - Download the repository and unzip it.
 - Open the solution in your IDE.
-- Load up a class library, that you would like to have tests in. Make sure it references the Core class library from this solution.
+- Load up a class library, that you would like to test. Make sure it references the Core class library from this solution.
 - Copy the path of the testing class library.
 - Go to ./TestingFramework/bin/Debug/net6.0/appsettings.json and paste the path into the empty quotation marks "". 
 - Make sure all the testing classes are public and have a "TestClass" attribute.
 - Make sure all the testing methods have a "Fact" attribute.
-- You can add a set up and tear down testing methods with attributes "RunBeforeEachTest" and "RunAfterAllTests".
+- You can add a set-up and tear-down testing methods with attributes "RunBeforeEachTest" and "RunAfterAllTests".
 - You can use the Core.Assertion.Assert class to assert within testing methods.
-- You can now build and run and see the results of your tests.
+- You can now build, run, and see the results of your tests.
 
 # What I Learned
 
-- How to use Reflection to test classes.
-- How to design a better n-layered architecture.
-- How to use the built Dependency Injection from .NET.
+- How to use Reflection in C# to test classes.
+- Clean n-layered architecture design.
+- How to use the built-in Dependency Injection from .NET.
